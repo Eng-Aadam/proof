@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+header .logo{
+    margin-left: 10px;
+    color: aliceblue;
+     opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+}
+.logo.show{
+     opacity: 1;
+  transform: translateY(0);
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+margin-left: 798px;
+
+
+
+}  
+header nav ul a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+ 
+header .icons{
+    margin-right: 10px;
+    color: aliceblue;
+           opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+}
+.icons.man{
+            opacity: 1;
+  transform: translateY(0);
+}
+body{
+    background-color: rgb(59, 62, 201);
+}
+
+.main{
+    display: flex;
+           opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+
+}
+.main.mn{
+        opacity: 1;
+  transform: translateY(0);
+}
+
+.main .text{
+    color: aliceblue;
+margin-left: 40px;
+margin-top: 60px;
+}
+.main .text h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.main .text h1 , p,button{
+    margin: 20px;
+}
+.main .text button{
+    background: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.main .imge img{
+    width: 300px;
+    background: rgb(120, 160, 224);
+    border-radius: 200px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+             opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+}
+.main2.back{
+            opacity: 1;
+  transform: translateY(0);
+}
+.main2 .box1{
+    background-color: aliceblue;
+    width: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 12px;
+}
+.main2 .box1 h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main2 .box1 p{
+    margin-left: -1px;
+}
+
+
+.main2 .box1 .fa-solid {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(59, 62, 201);
+}
+
+/* box2 */
+
+.main2 .box2{
+    background-color: aliceblue;
+    width: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 12px;
+}
+.main2 .box2 h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main2 .box2 p{
+    margin-left: -1px;
+}
+
+
+.main2 .box2 .fa-brands {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(59, 62, 201);
+
+}
+
+
+
+
+.main3 .text{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 90px;
+}
+.main3 .text h1{
+    font-size: 40px;
+}
+
+.main4 img{
+    width: 200px;
+}
+.main4 .man{
+    width: 200px;
+    border-radius: 12px;
+    margin-left: 200px;
+}
+.main4 .grile{
+    border-radius: 12px;
+    margin-top: -100px;
+    margin-left: 120px;
+    width: 130px;
+}
+
+.main4 h2{
+    color: aliceblue;
+    margin-left: 250px;
+    margin-top: -100px;
+    font-size: 70px;
+}
+
+.main4 h3{
+    color: aliceblue;
+    margin-left: 320px;
+    margin-top: -56px;
+    font-size: 15px;
+}
+.qoraal {
+    color: aliceblue;
+}
+
+.main4 {
+    display: flex;
+
+}
+.main4 .one{
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.main4 .two{
+    margin-left: 70px;
+    margin-top: 70px;
+    gap: 30px;
+
+}
+.main4 .qoraal h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.rigt{
+    color: rgb(35, 7, 1);
+    padding: 0;
+    border: solid white 1px;
+        border-radius: 22px 0px 0px 22px;
+
+    padding: 10px;
+
+    
+}
+.rigt h4{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.rigt p{
+    margin-top: 0px;
+color: aliceblue;
+}
+
+
+
+
+/* left */
+
+
+.comon{
+    display: flex;
+}
+
+
+.left {
+    color: rgb(0, 0, 0);
+    padding: 0;
+     border: solid white 1px;
+    border-radius: 0px 22px 22px 0px;
+    padding: 10px;
+  
+}
+
+.left h4{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.left p{
+    margin-top: 0px;
+color: aliceblue;
+}
+
+body .btn{
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 600px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+}
+.main5 .shaps{
+    display: flex;
+    gap: 10px;
+   margin-left: 170px;
+   margin-top: 50px;
+}
+
+.main5 .shaps .shp{
+    background:rgba(180, 181, 229, 0.438);
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    
+}
+.main5 .shaps h2{
+    font-size: 80px;
+}
+.main5 .shaps p{
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 90px;
+
+}
+footer{
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+
+
